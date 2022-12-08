@@ -17,4 +17,4 @@ Statistics Computed:
 -Trip duration
 -User information
 -------------------------------------------------------------------------------------------------------------------------------
-Lower/Upper case is handeled in the code
+Lower/Upper case is handled in the code
