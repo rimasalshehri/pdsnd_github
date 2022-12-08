@@ -163,8 +163,8 @@ def user_stats(df, city):
     print('-'*40)
     x = 1
     while True:
-        raw = input('\nWould you like to see some raw data? Enter yes or no.\n')
-        if raw.lower() == 'yes':
+        raw = input('\nWould you like to see some raw data? Enter Y for yes or N for no.\n')
+        if raw.lower() == 'y':
             print(df[x:x+5])
             x = x+5
         else:
@@ -180,8 +180,8 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter Y for yes or N for no.\n')
+        if restart.lower() != 'y':
             break
 
 
